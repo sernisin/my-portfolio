@@ -1,8 +1,9 @@
+import $ from "jquery";
 // styles
 import "../styles/style.scss";
+// scripts
 import "./cards.js";
 import "./prices.js";
-import $ from "jquery";
 
 $(document).ready(function() {
   $(".fa-bars").click(function() {

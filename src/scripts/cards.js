@@ -5,6 +5,7 @@ import p1 from "../images/p1.jpg";
 import light from "../images/lights.jpg";
 import mountain from "../images/mountains.jpg";
 import nature from "../images/nature.jpg";
+
 let card = [
   {
     cardImg: p3,
