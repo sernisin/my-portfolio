@@ -67,11 +67,11 @@ a {
     &:hover {
       background-color: #f1f1f1;
     }
-    &:focus {
+  }
+  .active-link {
+    color: #009688;
+    i {
       color: #009688;
-      i {
-        color: #009688;
-      }
     }
   }
 }

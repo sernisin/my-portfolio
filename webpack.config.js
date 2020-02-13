@@ -64,6 +64,12 @@ module.exports = {
       inject: true,
       chunks: ["index"],
       filename: "index.html"
+    }),
+    new HTMLPlugin({
+      template: "./src/about.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "about.html"
     })
   ]
 };
