@@ -3934,7 +3934,14 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-isotope-layout@^3.0.6:
+isotope-cells-by-row@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/isotope-cells-by-row/-/isotope-cells-by-row-1.1.4.tgz#645d712c4dc991b179db705b0a37e8c8a04e5339"
+  integrity sha512-wfcZ6Tkw6QR4KMCFIATsxo2W9zFT5qEN0XkTohelyQC13feDaHAG0fz9hQsRHHuMuuexYE9rkPuSUUpY2OFjag==
+  dependencies:
+    isotope-layout ">=2.1 <4.0"
+
+"isotope-layout@>=2.1 <4.0", isotope-layout@^3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/isotope-layout/-/isotope-layout-3.0.6.tgz#d5636ec74d68e7e88fa5166fe6396858db00f432"
   integrity sha512-z2ZKablhocXhoNyWwzJPFd7u7FWbYbVJA51Nvsqsod8jH2ExGc1SwDsSWKE54e3PhXzqf2yZPhFSq/c2MR1arw==
@@ -5058,9 +5065,9 @@ npm-run-path@^2.0.0:
     path-key "^2.0.0"
 
 npm-user-validate@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-1.0.0.tgz#8ceca0f5cea04d4e93519ef72d0557a75122e951"
-  integrity sha1-jOyg9c6gTU6TUZ73LQVXp1Ei6VE=
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-1.0.1.tgz#31428fc5475fe8416023f178c0ab47935ad8c561"
+  integrity sha512-uQwcd/tY+h1jnEaze6cdX/LrhWhoBxfSknxentoqmIuStxUExxjWd3ULMLFPiFUrZKbOVMowH6Jq2FRWfmhcEw==
 
 npm@^6.13.7:
   version "6.13.7"
