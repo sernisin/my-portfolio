@@ -9,23 +9,20 @@
     <section class="content">
       <section class="left-nav">
         <div class="x">
-          <img src="${require(`./images/avatar_g2.jpg`).default}" alt="" />
+          <img src="${require(`./images/doctor.jpg`).default}" alt="" />
           <i class="fas fa-times"></i>
         </div>
         <h3>PORTFOLIO</h3>
-        <p>Template by W3.CSS</p>
+        <p>Dotor Dosent</p>
         <div class="menu">
           <a name="index" href="index.html"><i class="fa fa-th-large"></i> PORTFOLIO</a>
-          <a name="about" href="about.html"><i class="fa fa-user"></i>ABOUT</a>
-          <a href="#"><i class="fa fa-envelope"></i>CONTACT</a>
+          <a name="about" href="#me"><i class="fa fa-user"></i>ABOUT</a>
+          <a href="#contact"><i class="fa fa-envelope"></i>CONTACT</a>
         </div>
         <i class="fab fa-facebook"></i>
         <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-snapchat"></i>
         <i class="fab fa-telegram"></i>
         <i class="fab fa-whatsapp"></i>
-        <i class="fab fa-twitter"></i>
       </section>
       <section class="main">
         <nav class="hidden-nav">
@@ -33,34 +30,33 @@
           <img src="${require(`./images/avatar_g2.jpg`).default}" alt="" />
         </nav>
         <nav class="top-nav">
-          <h1>My Portfolio</h1>
           <div class="filter">
             <span>Filter:</span>
-            <button class="filter-btn-group" data-filter="*">ALL</button>
-            <button class="filter-btn-group" data-filter=".design"><i class="fa fa-gem"></i>DESIGN</button>
-            <button class="filter-btn-group" data-filter=".photos"><i class="fa fa-image"></i>PHOTOS</button>
-            <button class="filter-btn-group" data-filter=".art"><i class="fas fa-palette"></i>ART</button>
+            <a href="#prices" ><i class="fas fa-notes-medical"></i>CHECK-UP</a>
+            <a href="#class" ><i class="fas fa-stethoscope"></i>EXAMINATIONS</a>
+            <a href="#contact" ><i class="fas fa-user-md"></i>CONTACT</a>
           </div>
         </nav>
         <!-- cards -->
+        <h3 class="me" id='cards'>Examinations</h3>
         <div class="cards"></div>
-        <h3 class="me">About Me</h3>
+        <h3 class="me" id='me'>About Me</h3>
         <!-- about me -->
         ${require(`./about.html`)}
         <!-- prices -->
-        <div class="prices">
-          <h3 class="price-title">Prices</h3>
+        <div class="prices" id="prices">
+          <h3 class="price-title">CHECK-UP</h3>
           <div class="price"></div>
         </div>
         <!-- contact -->
-        <div class="contact">
+        <div class="contact" id='contact'>
           <h4 class="contact-me">Contact Me</h4>
           <div class="contact-links">
             <div class="mail link">
               <p>email@email.com</p>
             </div>
             <div class="location link">
-              <p>Chicago, US</p>
+              <p>Baku, AZ</p>
             </div>
             <div class="number link">
               <p>512312311</p>
@@ -93,33 +89,18 @@
           <div class="before-footer-companents">
             <h1>BLOG POSTS</h1>
             <div class="top">
-              <img src="${require(`./images/workshop.jpg`).default}" alt="" />
+              <img src="${require(`./images/lab.jpg`).default}" alt="" />
               <p>
                 Lorem <br />
                 <span>Sed mattis nunc</span>
               </p>
             </div>
             <div class="top">
-              <img src="${require(`./images/gondol.jpg`).default}" alt="" />
+              <img src="${require(`./images/arm-needle.jpg`).default}" alt="" />
               <p>
                 Lorem <br />
                 <span>Sed mattis nunc</span>
               </p>
-            </div>
-          </div>
-          <div class="before-footer-companents">
-            <h1>POPULAR TAGS</h1>
-            <div class="little-wrap">
-              <span class="little">Travel</span>
-              <span class="little">New York</span>
-              <span class="little">London</span>
-              <span class="little">Bogota</span>
-              <span class="little">Cartel</span>
-              <span class="little">Clothing</span>
-              <span class="little">Baby</span>
-              <span class="little">Family</span>
-              <span class="little">Adventure</span>
-              <span class="little">Love</span>
             </div>
           </div>
         </div>

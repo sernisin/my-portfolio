@@ -96,7 +96,7 @@ a {
 .top-nav {
   border-bottom: 6px solid #ccc;
   padding-bottom: 25px;
-  margin: 0 15px;
+  margin: 25px 15px 0 15px;
   h1 {
     margin-top: 4px;
     font-size: 40px;
@@ -303,7 +303,7 @@ hr {
 .before-footer {
   display: flex;
   background-color: #616161;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 10px 15px;
   .before-footer-companents {
@@ -402,5 +402,15 @@ i {
   }
   .before-footer-companents {
     flex: 0 0 calc(100%) !important;
+  }
+}
+.organization{
+  margin-left: 15px;
+}
+.filter{
+  a{
+    padding: 3px;
+    border-radius: 5px;
+    border:0.5px black solid;
   }
 }
